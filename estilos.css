@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.conteiner {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.column{
+    flex: 1;
+    padding: 10px;
+}
+
+.conteiner-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: black;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li>a {
+    padding: 8px 24px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+ 
+a:hover {
+    color: aquamarine;
+}
+
+.brand {
+    display: flex;
+
+}
+
+ul{
+    display: flex;
+}
+
+.nav-link {
+    display:flex;
+   
+}
+
+.button-menu-toggle {
+    display: none;
+}
+
+.img-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    gap: 10px;
+}
+
+img {
+    max-width: 90%;
+}
+
+.video-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+/* Estilo del footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5; /* Color de fondo del footer */
+    color: #333; /* Color de texto del footer */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: -1;
+    min-height: 200px;
+    padding: 20px;
+    font-size: 16px; /* Tamaño de letra del footer */
+  }
+
+
+@media (max-width: 768px) {
+    .column {
+        flex: 100%;
+    }
+
+    .nav-links {
+        display: none;
+}
+ 
+    .button-menu-toggle {
+        display: block;
+        background-color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 0 24px;
+        font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    .nav-links.active{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        top: 50px;
+        left: 0;
+    }
+    iframe {
+        max-width: 90%;
+    }
+
+    .video-conteiner {
+        padding: 10px;
+        gap: 5px;
+    }
+
+}
+
+

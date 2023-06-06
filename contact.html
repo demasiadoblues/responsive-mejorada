@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>
+        contacto
+    </title>
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+    <header class="conteiner-nav">
+        <nav class="navbar" role="navigation">
+            <a href="index.html" class="brand"><img src="logo.png"></a>
+            <ul class="nav-links">
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="services.html">servicios</a></li>
+                <li><a href="contact.html">contacto</a></li>
+                <li><a href="about.html">acerca de nosotros</a></li>
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </header>
+    <main>
+        <div class="conteiner">
+            <h1>Contacto</h1>
+            <p>¡Contáctanos para cualquier consulta o solicitud de información!</p>
+
+            <form id="myForm">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="name">nombre</label>
+                <input type="text" id="name" name="name" required>
+                <button type="submit">Enviar</button>
+
+            </form>
+            <script src="script.js"></script>
+        </div>
+    </main>
+    <footer>
+        <button onclick="showAlert()" aria-label="Dispara una alerta de saludo">contactanos</button>
+        <p>Este es el footer de mi pagina</p>
+    </footer>
+</body>
+
+</html>
