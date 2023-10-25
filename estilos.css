@@ -50,7 +50,9 @@ a:hover {
 
 .brand {
     display: flex;
-
+}
+.brand img {
+    border-radius: 5px 5px 5px 5px;
 }
 
 ul{
