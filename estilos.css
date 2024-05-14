@@ -146,6 +146,14 @@ footer {
     font-size: 16px; /* Tamaño de letra del footer */
   }
 
+/* Estilos para el botón de WhatsApp */
+footer img {
+    width: 40px; /* Tamaño de la imagen del logo de WhatsApp */
+    vertical-align: middle; /* Alinear verticalmente con el texto */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+
 
 @media (max-width: 768px) {
     .column {
