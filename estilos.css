@@ -92,8 +92,11 @@ a:hover {
     display: flex;
 }
 .brand img {
-    border-radius: 5px 5px 5px 5px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Establece un radio de redondeo de 5px para todos los bordes */
 }
+
 
 ul{
     display: flex;
